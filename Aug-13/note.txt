@@ -1,0 +1,7 @@
+length
+push()
+pop()
+shift()
+lastIndexof()
+include()
+foreach
