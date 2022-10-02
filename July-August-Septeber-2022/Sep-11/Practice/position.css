@@ -1,0 +1,25 @@
+.parent{
+background-color: #00aaff;
+}
+
+.child{
+    padding: 5px;
+}
+
+.child-one{
+    background-color: yellow;
+
+
+}
+.child-two{
+    background-color: rgb(26, 255, 0);
+
+
+}
+
+.child-three{
+    background-color: red;
+
+
+}
+

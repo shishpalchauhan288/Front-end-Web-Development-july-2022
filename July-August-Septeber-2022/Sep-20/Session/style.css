@@ -1,0 +1,54 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color:rgb(122, 233, 212);
+    animation-name:  divColorChange;
+    animation-duration: 5s;
+    animation-delay: -3s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+    animation-timing-function: ease;
+    animation: divColorChange;
+}
+
+#div1{
+animation: cubic-bezier();
+}
+#div2{
+    animation-timing-function: ease;
+
+}
+#div3{
+    animation-timing-function: ease-in;
+
+}
+#div4{
+    animation-timing-function: ease-out;
+
+}
+#div5{
+    animation-timing-function: ease-in-out;
+
+}
+
+
+@keyframes divColorChange {
+    0%{
+        background-color: aquamarine;
+        width: 200px;
+    }
+ 25%{
+        background-color: blue;
+        width: 300px;
+    }
+    50%{
+        background-color: blueviolet;
+        width: 400px;
+
+    }
+    100%{
+        background-color: chartreuse;
+        width: 500px;
+    }
+    
+}

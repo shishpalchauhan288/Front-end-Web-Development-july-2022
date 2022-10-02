@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(148, 255, 127);
+
+        }
+        div{
+            margin: auto;
+            align-items: center;
+            background-color: aqua;
+            height: 300px;
+            width: 400px;
+            box-shadow:  0, 0, 0, 10px salmon;
+            text-align: center;
+        }
+        button{
+            height: 30px;
+            border-radius: 20px;
+            cursor: pointer;
+
+        }
+        button:hover{
+            background-color: rgb(242, 255, 0);
+            outline-color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h2 id="h2">This is Dom Concept</h2>
+        <P id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, officiis.</P>
+        <button onclick="ChangeContent()">click & Change</button>
+   </div>
+   
+
+   <script>
+    function ChangeContent(){
+        var some = document.getElementById("h2")
+        var para = document.getElementById("para")
+        some.innerText = "JavaScript is a Amazing Language for learning Purpose";
+        para.innerText = "initialy I don't like that much javascript but now I fall in love with javaScript";
+    }
+   </script>
+</body>
+</html>

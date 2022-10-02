@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+    //   function change_h2_Text() {
+    //     //get the reference of h2 element
+    //     var h2hp = document.getElementById("h2Id");
+    //     var php = document.getElementById("p1");
+
+    //     //chnage the content of h2 element using innerText Property
+    //     h2hp.innerText = "Hello JS, you are easy to understand";
+    //     php.innerText = "I am Programming Language";
+    //   }
+
+    function chageCourse(){
+        var h1 = document.getElementById("h3")
+        h1.innerText = "javaScript Topcis" 
+
+        var h1 = document.getElementById("li1")
+        h1.innerText = "Async Await"
+
+        var h1 = document.getElementById("li2")
+        h1.innerText = "Hoisting"
+
+        var h1 = document.getElementById("li3")
+        h1.innerText = "Higher Order Function"
+
+        var h1 = document.getElementById("li4")
+        h1.innerText = "call back Function"
+
+        
+
+    }
+    </script>
+    <style>
+      body {
+        background-color: lightcoral;
+      }
+      h3 {
+        color: white;
+      }
+     
+      #list {
+        background-color: lightgreen;
+        width: 500px;
+        margin: 100px auto;
+        padding: 50px;
+        box-shadow: 0 0 10px black;
+      }
+    </style>
+  </head>
+  <body>
+<div id="list">
+    <h3 id="h3">HTML Topics</h3>
+    <ul>
+      <li id="li1">Elements</li>
+      <li id="li2">Attributes</li>
+      <li id="li3">Iframe</li>
+      <li id="li4">Forms</li>
+    </ul>
+    <button onclick="chageCourse()">Change Topics</button>
+  </div>
+</body>
+</html>

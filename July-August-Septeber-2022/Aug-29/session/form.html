@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+
+<body>
+    <h1>Stydent Registrattion Form</h1>
+    <action="service.com" method="POST">
+        <div>
+
+            <label for="studentName">Student Name</label> <br />
+            <input type="text" name="studentName" placeholder="enter your name" required />
+        </div>
+        
+
+        <div>
+            <label for="surname">surname</label><br>
+            <input 
+            type="text" 
+            name="surname"
+             id="surname"
+             >
+        </div>
+       
+
+        <div>
+            <label for="">address</label> <br>
+            <textarea 
+            name="address" 
+            id="address" 
+            cols="15"
+             rows="2">
+            </textarea>
+
+        </div>
+      
+
+        <div>
+            <label for="password">Password</label> <br>
+            <input type="password"
+            placeholder="Enter your password"
+        >
+    </div>
+
+    <div>
+        <label for="email">Email</label> <br>
+        <input 
+        type="email" 
+        name="email"
+        id="email" 
+        required
+
+        />
+    </div>
+    
+
+    <div>
+        <label for="number">Mob Number</label> <br>
+        <input type="number" required>
+    </div> 
+
+    <div>
+        <label for="date">Date and Birth</label><br>
+        <input type="week" required>
+    </div>
+
+  <div>
+    <label for="branch">Choose your stream: </label> <br>
+    <input type="radio" value="radio" id="radio" name="radio"> Non Medical
+    <br>
+    <input type="radio"  value="radio" id="radio" name="radio"> medical
+  </div>
+   <br>
+  <div>
+    <label for="branch">Gender </label> <br>
+    <input type="radio" value="radio" id="radio" name="radio"> male
+    <br>
+    <input type="radio"  value="radio" id="radio" name="radio">female
+  </div>
+<br>
+  <div>
+    <label for="branchPref">Branch Prefrence:</label>  </Br>
+    <input type="checkbox" > CSE <br>
+    <input type="checkbox" name="" id="">ECE  <br>
+    <input type="checkbox" name="" id=""> PETRO  <br>
+    <input type="checkbox" name="" id="">ME      <br>
+  </div>
+  <br>
+
+<div>
+    <label for="docs">Upload aadhar card:</label> <br>
+    <input type="file"> <br>
+    <input type="color"> <br>
+    <input type="datetime" >  <br>
+    <input type="search" >   <br>
+</div> <br>
+
+ </form>
+
+</body>
+
+</html>

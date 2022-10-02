@@ -1,0 +1,11 @@
+
+body{
+    background-color: pink;
+    
+}
+
+.main{
+    background-image: url("https://images.pexels.com/photos/7562504/pexels-photo-7562504.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+    height: 50vh;
+    width: 50vh;
+}

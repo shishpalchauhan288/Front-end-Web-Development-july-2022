@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html >
+<head>
+   <title>Grid concept</title>
+   <style>
+    .container{
+        grid-gap: 10px;
+        height: 800px;
+        width: 500px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .box{
+        text-align: center;
+        color: white;
+    }
+      .box1{
+        background-color: darkgoldenrod;
+        grid-column: 1/5;
+       
+    }
+
+    .box2{
+        background-color: rgb(6, 237, 52);
+    }
+    .box3{
+        background-color: rgb(242, 26, 26);
+    }
+    .box4{
+        background-color: rgb(209, 18, 196);
+        grid-column: 1/4;
+    }
+    .box5{
+        background-color: rgb(30, 9, 163);
+        /* height: 100px;
+        width: 100px; */
+    }
+    .box6{
+        background-color: rgb(13, 176, 235);
+    }
+    .box7{
+        background-color: rgb(12, 184, 89);
+    }
+
+   </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box box1">Box 1 </div>
+        <div class="box box1">Box 2 </div>
+        <div class="box box1">Box 3 </div>
+        <div class="box box1">Box 4 </div>
+        <div class="box box1">Box 5 </div>
+        <div class="box box1">Box 6 </div>
+        <div class="box box1">Box 7 </div>
+        
+            
+       
+    </div>
+    
+</body>
+</html>

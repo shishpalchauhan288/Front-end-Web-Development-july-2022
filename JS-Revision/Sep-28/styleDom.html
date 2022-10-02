@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style in dom concept in js</title>
+</head>
+<body>
+    <h2 id="h2">welcome</h2>
+    
+
+    <script>
+        function printDocumentPropertis(){
+           
+            for(var property in document){ 
+                var h2ref = document.getElementById("h2");
+                console.log(h2ref)
+            document.write(property)
+            document.write("<br>" + ":" +  h2ref[property] );
+            // console.log(property);
+        }
+        }
+        printDocumentPropertis();
+    </script>
+</body>
+</html>

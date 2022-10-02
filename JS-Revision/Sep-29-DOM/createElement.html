@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    function fnCreateElement(){
+      var h1Ref =  document.createElement('h1')
+      var imgRef = document.createElement('img')
+        h1Ref.innerText = "Hello world element is created"
+        
+        imgRef.src = "https://www.codeproject.com/KB/GDI-plus/ImageProcessing2/img.jpg"
+        imgRef.width = "500"
+        imgRef.height = "500"
+        document.getElementById('body').appendChild(h1Ref);
+        document.getElementById('body').appendChild(imgRef);
+    }
+</script>
+<body id="body">
+    
+
+    <button onclick="fnCreateElement()">Create Element</button>
+</body>
+</html>

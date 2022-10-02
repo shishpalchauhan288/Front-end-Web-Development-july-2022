@@ -1,0 +1,24 @@
+p{background-color: blue;
+
+}
+*{
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    border: none;
+    background-color: chartreuse;
+    padding: 12px;
+    border-radius: 8px;
+
+}
+
+button:hover{
+    border: 1px solid;
+    background-color: aliceblue;
+}
+input:focus{
+    background-color: aqua;
+}

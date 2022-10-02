@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+    <style>
+        body{
+            background-color: #101111;
+            color: aliceblue;
+
+        }
+        div{
+            width: 500px;
+            height: 200px;
+            justify-content: center;
+            margin: 100px auto;
+            border: 4px solid red;
+            background-color: blue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h2 id="h2">Welcome to JS</h2>
+        <button onclick="gm()">Good Morning</button>
+        <button onclick="ge()">Good Eevening</button>
+        <button onclick="gn()">Good Night</button>
+    </div id="d1">
+    <!-- <p></p>
+    <p></p>
+    <p></p>
+
+    -->
+
+    <script>
+        function gm(){
+             var greet1 = document.getElementById("h2")
+             greet1.innerText="Good Morning Kabir sir"
+             greet1.style.backgroundColor="orange"
+
+
+
+
+        }
+
+        function ge(){
+            var greet1 = document.getElementById("h2")
+             greet1.innerText="Good Evening Kabir sir"
+             greet1.style.color="red"
+            
+        }
+
+        function gn(){
+            var greet1 = document.getElementById("h2")
+            var greet1 = document.getElementById("d1")
+             greet1.innerText="Good Night Kabir sir"
+            greet1.style.backgroundColor="yellow"
+            
+        }
+    </script>
+    
+</body>
+</html>

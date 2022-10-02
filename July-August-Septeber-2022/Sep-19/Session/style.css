@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish';
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    color: whitesmoke;
+  }
+  
+  h1,
+  h2,
+  p {
+    margin: 16px 0px;
+  }
+  
+  h1 {
+    font-weight: 800;
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-weight: 800;
+    font-size: 24px;
+  }
+  
+  p {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Header section */
+  header {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.6));
+    color: whitesmoke;
+  }
+  .logo h1 {
+    font-size: 32px;
+    color: #4caf50;
+    margin: 0;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 8%;
+  }
+  
+  .fa-solid,
+  .fa-bars {
+    display: none;
+  }
+  nav ul {
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  .header-content {
+    width: 50%;
+    position: relative;
+    top: 16%;
+    left: 8%;
+  }
+  
+  form {
+    margin: 24px 0px;
+  }
+  
+  input[type='text'],
+  input[type='email'] {
+    width: 50%;
+    padding: 12px 6px;
+    margin: 12px 0;
+    display: block;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    font-family: 'Mulish';
+    
+  }
+  
+  input[type='submit'] {
+    width: 51%;
+    background-color: #4caf50;
+    color: whitesmoke;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    font-family: 'Mulish';
+  }
+  
+  @media screen and (max-width: 768px) {
+    .row {
+        flex-direction: flex;
+    }
+    nav ul{
+        background-color: whitesmoke;
+        display: none;
+    }
+    nav box-icon{
+        color: #4caf50;
+        display: block;
+        
+
+    }
+    .box-icon{
+
+    }
+    
+  }

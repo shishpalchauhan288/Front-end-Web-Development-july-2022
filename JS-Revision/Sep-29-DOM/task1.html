@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">
+        <select onchange="fn(event)">
+            <option>Select the Technology</option>
+            <option id="html">HTML</option>
+            <option id="css">CSS</option>
+            <option id="js">JavaScript</option>
+            <option id="rjs">React JS</option>
+            <option id="ang">Angular</option>
+             
+        </select>
+        <h2 id="h2">Nothing Is Selected</h2>
+    </label>
+
+
+    <script>
+        function fn(e){
+          var h2Ref = document.getElementById("h2")
+            switch(e.target.value){
+                case "HTML":
+                    h2Ref.innerText = "HTML is Selected"
+                    h2Ref.style.color = "aqua"
+                    break;
+                    case "CSS":
+                    h2Ref.innerText = "CSS is Selected"
+                    h2Ref.style.color = "Blue"
+                    break;
+                    case "JavaScript":
+                    h2Ref.innerText = "JavaScript is Selected"
+                    h2Ref.style.color = "Yellow"
+                    break;
+                    case "React JS":
+                    h2Ref.innerText = "React JS is Selected"
+                    h2Ref.style.color = "Orange"
+                    break;
+                    case "Angular":
+                    h2Ref.innerText = "Angular is Selected"
+                    h2Ref.style.color = "Green"
+                    break;
+
+                    case "Select The Technology":
+                    h2Ref.innerText = "Nothing is Selected"
+                    h2Ref.style.color = "Red"
+                    break;
+            }
+
+            for(var property in e){
+                console.log(property);
+            }
+
+            // console.log(e.target.value);
+
+        }
+        
+
+           
+
+        
+    </script>
+    
+</body>
+</html>

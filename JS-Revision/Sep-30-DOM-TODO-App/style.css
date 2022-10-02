@@ -1,0 +1,29 @@
+body{
+    margin: 0 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+#post{
+    width: 400px;}
+
+    i{
+        cursor: pointer;
+    }
+#post div{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.options{
+    display: flex;
+    gap: 25px;
+
+}
+#msg{
+    color:red;
+    
+}
