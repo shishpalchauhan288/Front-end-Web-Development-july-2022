@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 500px;
+            height: 200px;
+            padding: 50px;
+            text-align: center;
+            box-shadow: 0 0 10px solid black  auto;
+            margin: 100px auto;
+        }
+
+        
+
+    </style>
+    <script>
+        function change(){
+            document.getElementById('body').style.backgroundColor = "green";
+        }
+
+        function change(){
+            document.getElementById('div').style.backgroundColor = "red";
+        }
+
+        function changeColor(){
+            setTimeout(function(){
+
+            }, 5000);
+        }
+    </script>
+</head>
+<body id="body">
+    <div id="div" onmouseenter="fn()" onmouseleave="fn()">
+        <button onclick="change()"> click change bg</button>
+    </div>
+</body>
+</html>

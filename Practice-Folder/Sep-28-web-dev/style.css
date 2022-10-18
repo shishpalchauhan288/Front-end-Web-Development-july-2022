@@ -196,7 +196,31 @@ body{
             }
 
             .video-demo .content h1{
-                
+                font-size: 45px;
+                line-height: 57px;
+
+            }
+            .video-demo .video-content{
+                background: url('https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?size=626&ext=jpg&ga=GA1.2.1507662879.1664199911');
+                width: 55%;
+                /* height: 100%; */ 
+                background-repeat: no-repeat;
+                position: relative;
+            }
+            .video-demo .video a {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                color: rgb(7, 252, 7);
+            }
+            .video a i{
+                border: border 3px solid rgb(67, 252, 5);
+                border-radius: 50px;
+                width: 90px;
+                height: 90px;
+                text-align: center;
+                line-height: 90px;
+
             }
 
 

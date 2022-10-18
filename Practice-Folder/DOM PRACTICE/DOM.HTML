@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            color: white;
+        }
+        div {
+            background-color: yellowgreen;
+            width: 500px;
+            margin: 100px;
+            padding: 50px;
+            border: 4px solid red;
+            text-align: center;
+
+        }
+    </style>
+
+    <script>
+        function gm(){
+         var h2Rf =  document.getElementById("h2");
+         var d1Ref = document.getElementById('d1');
+
+         h2Rf.innerText="Good Morning Shishpal Chauhan";
+         h2Rf.style.color = "Blue";
+         h2Rf.style.background = "green";
+         d1Ref.style.backgroundColor = "white";
+
+        }
+
+        function ge(){
+            var h2Rf = document.getElementById("h2");
+             var d1Ref = document.getElementById('d1');
+             h2Rf.innerText="Good Evening Shishpal  Chauhan";
+             d1Ref.style.backgroundColor = "purple";
+            h2Rf.style.background = "red";
+
+            
+
+        }
+
+        function gn(){
+            var h2Rf =  document.getElementById("h2");
+            var d1Ref = document.getElementById('d1');
+
+            h2Rf.innerText="Good Night Shishpal Chauhan";
+            h2Rf.style.color = "Black";
+            d1Ref.style.backgroundColor = "blue";
+           h2Rf.style.background = "white";
+
+
+            
+        }
+
+    </script>
+</head>
+<body>
+    <div id="d1">
+        <h2 id="h2">Welcome to JS</h2>
+        <button onclick="gm()">Good Morning</button>
+        <button onclick="ge()">Good Evening</button>
+         <button onclick="gn()">Good Night</button>
+
+
+    </div>
+</body>
+</html>
